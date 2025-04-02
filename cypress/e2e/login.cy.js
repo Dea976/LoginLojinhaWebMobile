@@ -110,7 +110,7 @@ describe("Teste Login no site Lojinha - iPhone 14 com Edge", () => {
   });
 
   //6.Cenário Login para acessar Lojinha Usuário e Senha vazios
-  it.only("Usuario e senha vazios", () => {
+  it("Usuario e senha vazios", () => {
      //DADO
     // abrir a aplicacao
     cy.visit('http://165.227.93.41/lojinha-web/v2/', {
