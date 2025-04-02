@@ -57,7 +57,7 @@ describe("Teste Login no site Lojinha - iPhone 14 com Edge", () => {
   });
 
   //3.Cenário Login para acessar Lojinha Senha inválida 
-  it.only("Senha invalida", () => {
+  it("Senha invalida", () => {
     //DADO
     // abrir a aplicacao
     cy.visit('http://165.227.93.41/lojinha-web/v2/', {
@@ -75,7 +75,7 @@ describe("Teste Login no site Lojinha - iPhone 14 com Edge", () => {
   });
 
   //4.Cenário Login para acessar Lojinha com Senha vazia 
-  it("Senha vazia", () => {
+  it.only("Senha vazia", () => {
     //DADO
     // abrir a aplicacao
     cy.visit('http://165.227.93.41/lojinha-web/v2/', {
